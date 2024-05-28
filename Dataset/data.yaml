@@ -1,0 +1,13 @@
+train: Dataset/train/images
+val: Dataset/valid/images
+test: Dataset/test/images
+
+nc: 1
+names: ['Fire']
+
+roboflow:
+  workspace: firedetection-ycfc3
+  project: fire-m9yiw
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/firedetection-ycfc3/fire-m9yiw/dataset/2
